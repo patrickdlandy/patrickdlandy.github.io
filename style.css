@@ -57,6 +57,7 @@ h6{
 nav .brand-logo {    
   font-weight: bold;  
   text-transform: uppercase;
+  min-width: 325px;
 }
 
 
