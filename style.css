@@ -750,8 +750,8 @@ transition: background-color 0.5s ease-in-out;
 .testimonial-img {
   display: inline;
   float: left;
-  height: 150px;
-  width: 25%;
+  /* height: 150px; */
+  /* width: 25%; */
 }
 
 
@@ -952,9 +952,11 @@ transition: background-color 0.5s ease-in-out;
 
 .footer-top{
   display: inline;
-  padding: 60px 0;  
+  /* padding: 60px 0;   */
   float: left;  
   width: 100%;
+  /* background-color: rgb(255, 255, 255);
+  color: rgb(63, 195, 95); */
 }
 
 
@@ -2031,3 +2033,26 @@ textarea.materialize-textarea {
   .pagination li {width: 25px;margin: 0 5px;}
 
 }
+
+/* Patrick's additional classes */
+
+.about-icons {
+  /* display: inline-block; */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about-icons div {
+  /* display: inline-block; */
+  padding: 10px;
+}
+
+
+
+.iconify { 
+  width: 48px; 
+  height: 48px;
+  color: black;
+ }
