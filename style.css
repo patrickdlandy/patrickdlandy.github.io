@@ -2040,7 +2040,8 @@ textarea.materialize-textarea {
   /* display: inline-block; */
   height: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 
